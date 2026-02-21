@@ -19,4 +19,6 @@ printf("Idade: %d", idade);
 printf("Digite sua idade:"); // linha necessária para instruir o usuário
 scanf("%d", &idade); // o caractere '&' indica o endereço da variável
 ```
+* O trecho de código ``` setbuf(stdin, NULL); ``` é necessário para limpar o buffer do teclado quando lidamos com entradas de caracteres.
+
 [⛓️‍💥 variaveis](./entrada_e_saida.c)   
