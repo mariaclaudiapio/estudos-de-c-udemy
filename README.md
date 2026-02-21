@@ -1,1 +1,22 @@
-# estudos-de-c-udemy
+<h1 align="center"> Linguagem C <h1>
+
+## Variáveis
+
+* Para armazenar mais de um caractere em uma variável, use o tipo 'char' seguido pelo nome da variável + a quantidade de caracteres máximos que ela pode armazenar. 
+```
+char nome[30] = "Maria Cláudia";
+```
+[⛓️‍💥 variaveis](./variaveis.c)   
+
+## Entrada e saída de dados
+
+* A principal função para _saída_ de dados em C é a **printf**. Ela exibe textos e valores de variáveis na tela. 
+```
+printf("Idade: %d", idade);
+```
+* A função para _entrada_ de dados pelo usuário em C é a **scanf**. Ela lê os dados do teclado e os armazena no endereço de uma variável.
+```
+printf("Digite sua idade:"); // linha necessária para instruir o usuário
+scanf("%d", &idade); // o caractere '&' indica o endereço da variável
+```
+[⛓️‍💥 variaveis](./entrada_e_saida.c)   
