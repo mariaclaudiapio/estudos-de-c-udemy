@@ -21,4 +21,19 @@ scanf("%d", &idade); // o caractere '&' indica o endereço da variável
 ```
 * O trecho de código ``` setbuf(stdin, NULL); ``` é necessário para limpar o buffer do teclado quando lidamos com entradas de caracteres.
 
-[⛓️‍💥 variaveis](./entrada_e_saida.c)   
+[⛓️‍💥 variaveis](./entrada_e_saida.c)
+
+## Constantes
+Em C, a definição de uma constante se dá pelas seguintes codificações:
+```
+#define NOME_DA_VARIAVEL valor_da_variavel; 
+```
+ou
+```
+const tipo_da_variavel NOME_DA_VARIAVEL = valor_da_variavel;
+``` 
+
+* É padrão da linguagem declarar o nome das constantes com caixa alta;
+* As constantes com 'define' são declaradas antes da função main.
+
+[⛓️‍💥 constantes](./constantes.c)
