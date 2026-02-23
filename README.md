@@ -47,7 +47,7 @@ const tipo_da_variavel NOME_DA_VARIAVEL = valor_da_variavel;
 
 [⛓️‍💥 constantes](./constantes.c)
 
-## Pré e pós Incrementos
+## Pré e Pós Incrementos
 
 No pré-incremento ``` ++x ``` e no pré-decremento ``` --x ``` a variável é atualizada na própria linha de declaração do incremento ou do decremento.
 
