@@ -7,7 +7,7 @@
 ```
 char nome[30] = "Maria Cláudia";
 ```
-[⛓️‍💥 variaveis](./variaveis.c) 
+[⛓️‍💥 variaveis](./fundamentos/variaveis.c) 
 
 ## Entrada e saída de dados
 
@@ -26,7 +26,7 @@ scanf("%d", &idade); // o caractere '&' indica o endereço da variável
 
 * O trecho de código ``` setbuf(stdin, NULL); ``` é necessário para limpar o buffer do teclado quando lidamos com entradas de caracteres.
 
-[⛓️‍💥 variaveis](./entrada_e_saida.c)
+[⛓️‍💥 entrada e saída de dados](./fundamentos/entrada_e_saida.c)
 
 ## Constantes
 
@@ -45,10 +45,10 @@ const tipo_da_variavel NOME_DA_VARIAVEL = valor_da_variavel;
 * É padrão da linguagem declarar o nome das constantes com caixa alta;
 * As constantes com 'define' são declaradas antes da função main.
 
-[⛓️‍💥 constantes](./constantes.c)
+[⛓️‍💥 constantes](./fundamentos/constantes.c)
 
 ## Pré e Pós Incrementos
 
 No pré-incremento ``` ++x ``` e no pré-decremento ``` --x ``` a variável é atualizada na própria linha de declaração do incremento ou do decremento.
 
-[⛓️‍💥 incremento e decremento](./incremento_e_decremento.c)
+[⛓️‍💥 incremento e decremento](./fundamentos/incremento_e_decremento.c)
