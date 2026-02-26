@@ -52,3 +52,7 @@ const tipo_da_variavel NOME_DA_VARIAVEL = valor_da_variavel;
 No pré-incremento ``` ++x ``` e no pré-decremento ``` --x ``` a variável é atualizada na própria linha de declaração do incremento ou do decremento.
 
 [⛓️‍💥 incremento e decremento](./fundamentos/incremento_e_decremento.c)
+
+## Operadores relacionais
+
+Quando o resultado da comparação é **falso**, em C é retornado o valor 0. Quando é **verdadeiro**, é retornado o valor 1. 
