@@ -37,5 +37,8 @@ int main()
         break;
     }
 
+    // Operador ternário
+    (numero == 7 || numero == 1) ? printf("Final de semana.\n") : printf("Dia útil.\n");
+
     return 0;
 }
