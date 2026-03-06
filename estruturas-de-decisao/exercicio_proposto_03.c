@@ -2,6 +2,7 @@
 
 int main()
 {
+    // *** Exercício Proposto 03 ***
     // Dados três valores reais, x, y e z, construa um algoritmo que leia
     // esses valores e verifique se a soma é maior, igual ou menor que 50
     // e informe esse resultado
